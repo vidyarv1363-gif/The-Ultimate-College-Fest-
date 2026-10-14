@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20231d">
+  <meta name="description" content="A bold, adaptable home for your next campus festival. Festival details shown here are sample placeholders.">
+  <title>Common Ground — Campus Festival</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Common Ground home"><span class="mark">cg<span>+</span></span><span>COMMON<br>GROUND</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+      <a href="#about">The idea</a><a href="#events">The lineup</a><a href="#schedule">The day</a><a href="#visit">Find us</a>
+      <a class="nav-cta" href="#participate">Join the festival <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow light"><span class="live-dot"></span> A campus festival for everyone <span class="eyebrow-line"></span> Edition 01</p>
+        <h1 id="hero-title">Make room<br>for <em>more.</em></h1>
+        <p class="hero-intro">One campus. A thousand ways to show up. A festival built by the people who make it feel like home.</p>
+        <div class="hero-actions"><a class="button button-acid" href="#events">Explore the lineup <span aria-hidden="true">↘</span></a><a class="text-link light-link" href="#about">What is Common Ground? <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>DATE <b>To be announced</b></span><span>PLACE <b>Campus venue TBC</b></span><span>MADE FOR <b>Everyone, together</b></span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract, sunset-inspired festival artwork" role="img">
+        <div class="art-grain"></div><div class="sun-disc"></div><div class="art-ribbon ribbon-one"></div><div class="art-ribbon ribbon-two"></div>
+        <svg class="crowd-art" viewBox="0 0 800 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><path d="M0 720 60 680 98 709 128 640 167 693 207 658 246 707 278 650 319 700 365 631 406 700 447 661 485 716 526 647 567 701 608 667 649 713 695 653 736 702 800 674V900H0Z" fill="#20231d"/><g fill="#20231d"><circle cx="96" cy="731" r="33"/><path d="M44 900v-94q8-45 52-45t52 45v94z"/><circle cx="218" cy="756" r="27"/><path d="M171 900v-83q7-39 47-39t47 39v83z"/><circle cx="370" cy="727" r="37"/><path d="M309 900v-101q9-48 61-48t61 48v101z"/><circle cx="518" cy="754" r="29"/><path d="M469 900v-84q8-41 49-41t49 41v84z"/><circle cx="678" cy="725" r="39"/><path d="M614 900v-102q9-52 64-52t64 52v102z"/><path d="M358 751q-12-107 20-146 9-11 18 1 25 38 25 102l44 58-16 15-61-46-11-60-3 89z"/><path d="M645 752q-9-94 20-128 9-10 17 1 23 33 24 87l37 47-15 14-52-38-9-52-5 75z"/></g></svg>
+        <div class="art-stamp"><span>COME AS<br>YOU ARE</span><i>✳</i></div>
+        <span class="art-caption">A LITTLE LOUDER, A LOT CLOSER. &nbsp; / &nbsp; CG—001</span>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO FIND YOUR THING</span><span class="scroll-rule"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-index">01 / THE IDEA</div>
+      <div class="intro-content reveal"><p class="eyebrow">A festival without sidelines</p><h2>Different people.<br><em>Same frequency.</em></h2></div>
+      <div class="intro-aside reveal"><p>Common Ground is a meeting place for the things we make, the things we love, and the people we haven’t met yet. Find your corner. Then find a new one.</p><a class="text-link" href="#events">See what’s on <span>↘</span></a><div class="asterisk">✳</div></div>
+    </section>
+
+    <section class="lineup section-pad" id="events">
+      <div class="section-heading"><div><div class="section-index">02 / THE LINEUP</div><p class="eyebrow">Pick a path. Change your mind.</p><h2>There’s a place<br>for <em>your kind of loud.</em></h2></div><p class="section-note">A sample program to show how the lineup could come to life. Event names and details below are illustrative and need confirmation.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter events by category">
+        <button class="filter active" data-filter="all" aria-pressed="true">Everything <span>06</span></button><button class="filter" data-filter="music" aria-pressed="false">Sound <span>02</span></button><button class="filter" data-filter="make" aria-pressed="false">Make <span>02</span></button><button class="filter" data-filter="play" aria-pressed="false">Play <span>02</span></button>
+      </div>
+      <div class="event-list" aria-live="polite">
+        <article class="event-row reveal" data-category="music"><span class="event-no">01</span><div class="event-thumb thumb-sound"><span>01 / LIVE</span></div><div class="event-main"><span class="tag">SOUND · SAMPLE EVENT</span><h3>Open-air sessions</h3><p>Local voices, late-afternoon light, no wrong way to dance.</p></div><div class="event-detail"><span>LIVE MUSIC</span><span>TIME / TBC</span></div><a href="#schedule" class="event-arrow" aria-label="See Open-air sessions in the sample schedule">↗</a></article>
+        <article class="event-row reveal" data-category="make"><span class="event-no">02</span><div class="event-thumb thumb-make"><span>02 / MAKE</span></div><div class="event-main"><span class="tag">MAKE · SAMPLE EVENT</span><h3>Big idea, small table</h3><p>Drop in, get hands-on, leave with something you made.</p></div><div class="event-detail"><span>OPEN WORKSHOP</span><span>TIME / TBC</span></div><a href="#schedule" class="event-arrow" aria-label="See Big idea, small table in the sample schedule">↗</a></article>
+        <article class="event-row reveal" data-category="play"><span class="event-no">03</span><div class="event-thumb thumb-play"><span>03 / PLAY</span></div><div class="event-main"><span class="tag">PLAY · SAMPLE EVENT</span><h3>Friendly fire</h3><p>A quick tournament where the only stakes are bragging rights.</p></div><div class="event-detail"><span>GAMES &amp; TEAM PLAY</span><span>TIME / TBC</span></div><a href="#schedule" class="event-arrow" aria-label="See Friendly fire in the sample schedule">↗</a></article>
+        <article class="event-row reveal" data-category="music"><span class="event-no">04</span><div class="event-thumb thumb-dance"><span>04 / MOVE</span></div><div class="event-main"><span class="tag">SOUND · SAMPLE EVENT</span><h3>Floor is yours</h3><p>All styles welcome. Spectating is dancing with your eyes.</p></div><div class="event-detail"><span>OPEN DANCE FLOOR</span><span>TIME / TBC</span></div><a href="#schedule" class="event-arrow" aria-label="See Floor is yours in the sample schedule">↗</a></article>
+        <article class="event-row reveal" data-category="make"><span class="event-no">05</span><div class="event-thumb thumb-art"><span>05 / MAKE</span></div><div class="event-main"><span class="tag">MAKE · SAMPLE EVENT</span><h3>Print it forward</h3><p>A shared canvas for the tiny ideas that add up to a big one.</p></div><div class="event-detail"><span>COMMUNITY ART</span><span>TIME / TBC</span></div><a href="#schedule" class="event-arrow" aria-label="See Print it forward in the sample schedule">↗</a></article>
+        <article class="event-row reveal" data-category="play"><span class="event-no">06</span><div class="event-thumb thumb-chill"><span>06 / PAUSE</span></div><div class="event-main"><span class="tag">PAUSE · SAMPLE EVENT</span><h3>Soft landing</h3><p>A shady patch, a good playlist, and absolutely no agenda.</p></div><div class="event-detail"><span>HANGOUT ZONE</span><span>DROP IN</span></div><a href="#visit" class="event-arrow" aria-label="Find the Soft landing area">↗</a></article>
+      </div>
+    </section>
+
+    <section class="schedule section-pad" id="schedule">
+      <div class="section-index">03 / THE DAY</div>
+      <div class="schedule-head"><div><p class="eyebrow">A day with room to wander</p><h2>Keep the plan<br><em>loosely held.</em></h2></div><div class="schedule-stamp">PROGRAM<br><strong>PREVIEW</strong><span>NOT FINAL</span></div></div>
+      <div class="schedule-layout"><div class="day-tabs" role="tablist" aria-label="Sample festival schedule"><button class="day-tab active" id="day-tab-1" role="tab" aria-selected="true" aria-controls="day-panel" data-day="1">Day 01 <span>All together</span></button><button class="day-tab" id="day-tab-2" role="tab" aria-selected="false" aria-controls="day-panel" data-day="2">Day 02 <span>More to come</span></button></div><div class="day-panel" id="day-panel" role="tabpanel" aria-labelledby="day-tab-1"><p class="schedule-disclaimer">Illustrative timing only. Final schedule and date to be confirmed.</p><div class="time-row"><time>12:00</time><div><b>Doors open</b><span>Find your people · Main lawn</span></div><i>START</i></div><div class="time-row"><time>13:30</time><div><b>Big idea, small table</b><span>Open workshop · Makers' tent</span></div><i>MAKE</i></div><div class="time-row"><time>15:00</time><div><b>Friendly fire</b><span>Team games · Court 02</span></div><i>PLAY</i></div><div class="time-row"><time>17:30</time><div><b>Open-air sessions</b><span>Live music · Main lawn</span></div><i>LIVE</i></div></div></div>
+    </section>
+
+    <section class="photo-break" aria-label="A graphic interlude celebrating gathering together"><div class="photo-shape shape-a"></div><div class="photo-shape shape-b"></div><p>MAKE A LITTLE<br><em>NOISE.</em></p><span>TOGETHER, OF COURSE.</span><span class="photo-star">✳</span></section>
+
+    <section class="participate section-pad" id="participate"><div class="section-index">04 / YOUR TURN</div><div class="participate-grid"><div><p class="eyebrow">Save a little space</p><h2>Come as<br><em>you are.</em></h2></div><div class="participate-copy"><p>Want to take part, perform, volunteer, or help shape the festival? The organizing team’s registration and contact details haven’t been provided yet.</p><button class="button button-dark" type="button" id="contact-button">Registration details coming soon <span aria-hidden="true">↗</span></button><small>Registration is not connected. Add verified organizer and sign-up details before launch.</small></div></div></section>
+
+    <section class="visit section-pad" id="visit"><div class="visit-copy"><div class="section-index">05 / FIND US</div><p class="eyebrow">Meet you in the middle</p><h2>Right here.<br><em>Details soon.</em></h2><p>The campus, exact venue, and festival date are still to be confirmed. Add practical travel and accessibility information here once it’s available.</p><a class="text-link" href="#top">Back to the top <span>↑</span></a></div><div class="map-panel" aria-label="Illustrated placeholder map for the campus venue"><div class="map-grid"></div><span class="map-label label-a">CAMPUS / TBC</span><span class="map-label label-b">MEET HERE</span><span class="map-pin">✳</span><span class="map-road road-a"></span><span class="map-road road-b"></span><span class="map-note">VENUE MAP<br>PLACEHOLDER</span></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-mark" href="#top"><span class="mark">cg<span>+</span></span><span>COMMON<br>GROUND</span></a><p>Made for the space between us.<br><span>Festival identity, date, venue &amp; contact details are placeholders.</span></p><a class="footer-top" href="#top">BACK TO TOP ↑</a><div class="footer-bottom"><span>© COMMON GROUND — SAMPLE CONCEPT</span><span>BUILT FOR THE IN-BETWEEN</span><span>IG / SOCIAL LINK TBC</span></div></footer>
+  <dialog class="info-dialog" id="info-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" aria-label="Close">×</button><p class="eyebrow">Common Ground / Update</p><h2 id="dialog-title">Registration isn’t open yet.</h2><p>The festival’s official organizer and registration details haven’t been added to this preview. Check back when the confirmed information is available.</p><button class="button button-dark dialog-ok" type="button">Got it</button></dialog>
+</body>
+</html>
